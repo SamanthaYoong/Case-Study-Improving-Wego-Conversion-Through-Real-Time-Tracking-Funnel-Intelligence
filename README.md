@@ -10,7 +10,7 @@ This case study simulates a real-world project for **Wego**, a leading travel pl
 - **Price volatility** and **data lag** 
 - Potential loss of user trust suggested by **Conversion drop-offs** in the search-to-booking funnel  
 
-The project demonstrates **how diagnosing root causes** and **building real-time data pipelines** can **improve conversion performance over time**.
+The project demonstrates **how diagnosing root causes**  can **improve conversion performance over time**.
 
 ---
 
@@ -28,7 +28,7 @@ Wego aggregates millions of flight and hotel options daily from multiple provide
 
 To diagnose whether the conversion drop after the *search stage* was primarily caused by:
 
-📌 Inaccurate or delayed pricing data or/and poor search relevance or mismatched results
+📌 Inaccurate or delayed pricing data 
 
 This stage focuses on validating hypotheses and _isolating key variables (poor search relevance)_ impacting conversion rate.
 
