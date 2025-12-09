@@ -1,4 +1,4 @@
-### Case Study: Root-Cause Analysis of CTR Decline: Detecting FX Drift & Pricing Inconsistencies in Wego
+## Case Study: Root-Cause Analysis of CTR Decline: Detecting FX Drift & Pricing Inconsistencies in Wego
 
 _Focus on uncovering the drivers of CTR Drop, a real-time pricing diagnostics for Wego_
 
@@ -42,7 +42,6 @@ This stage focuses on validating hypotheses and _isolating key variables (poor s
 | H2 | FX drift and stale prices increase **price volatility**.| Data | FX Drift %, Stale Price %, Price Volatility Index | Positive trend |
 | H3 | Higher price volatility reduces **Price accuracy**, which lowers **user trust, and therefore CTR** and **Search-to-Book Conversion**. | Behavioral | Price Volatility %, Price Accuracy %, CTR, Search-to-Book Conversion %, Abandonment % | Negative trend |
 | H4 | Search relevance remains stable → **pricing is the key driver**.| Control | Relevance Score, CRI, CRR, Bounce % | Stable |
-| H5 | Real-time dashboard tracking can **optimize anamoly response efficiency** and **improving conversion by 10%** during travel seasons. | Action + Outcome | Price Anamoly Response Efficiency Index (PAREI), Search-to-Book Conversion % | Positive trend |
 
 Flowchart
 ```
@@ -50,9 +49,7 @@ Flowchart
   B -->|H2: FX drift + stale →| C
   C -->|H3: Volatility →| D
   S -->|H4: If stable →| D
-  D -->|H3: lower user trust, CTR, Search-to-Book Conversion →| E
-  E -->|H5: tracking → improves conversion 10% 
-  E -->|H5: tracking → optimizes anamoly response efficiency 
+  D -->|H3: lower user trust, CTR, Search-to-Book Conversion 
 ```
 ---
 
